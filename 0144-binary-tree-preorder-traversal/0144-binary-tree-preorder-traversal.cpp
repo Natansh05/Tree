@@ -11,17 +11,23 @@
  */
 class Solution {
 public:
-    vector<int> ans;
-    void preorder(TreeNode* root){
-        if(root==NULL)
-            return;
-        ans.push_back(root->val);
-        preorder(root->left);
-        preorder(root->right);
-    }
     vector<int> preorderTraversal(TreeNode* root) {
+        // interative version 
         ios_base::sync_with_stdio(0);
-        preorder(root);
+        vector<int> ans;
+        if(root==NULL)
+            return ans;
+        stack<TreeNode*> st;
+        st.push(root);
+        while(!st.empty()){
+            root = st.top();
+            st.pop();
+            ans.push_back(root->val);
+            if(root->right)
+                st.push(root->right);
+            if(root->left)
+                st.push(root->left);
+        }
         return ans;
     }
 };

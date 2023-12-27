@@ -1,3 +1,10 @@
+//Link to striver's notes - https://takeuforward.org/data-structure/level-order-traversal-of-a-binary-tree/
+//Link to striver's video - https://youtu.be/EoAsWbO7sqg
+
+//T.C. - O(N)
+//S.C. - O(N)
+
+
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

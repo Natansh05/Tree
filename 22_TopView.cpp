@@ -1,6 +1,11 @@
 
 // link - https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1
 
+
+//Note - Recursive solutions wont work in this case , consider an inorder traversal then you will be going to right node of left most node first than the right node of root 
+// leading to false answer so recursive solutions dont work in this case
+
+
 class Solution
 {
     public:

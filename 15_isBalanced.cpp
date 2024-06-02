@@ -37,6 +37,9 @@ public:
 
 
 //recursive approach
+
+// Time Complexity - o(N^2)
+// Space Complexity - O(N^2)
 class Solution {
     private:
     int height(TreeNode *root){

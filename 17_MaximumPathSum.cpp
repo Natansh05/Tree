@@ -1,6 +1,9 @@
 // problem link - https://leetcode.com/problems/binary-tree-maximum-path-sum/
 //Difficulty - Hard
 
+// Time Complexity - O(N)
+// Space Complexity - O(N)
+
 class Solution {
     private:
     int solve(TreeNode* root,int &maxi){

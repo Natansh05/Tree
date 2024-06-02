@@ -1,4 +1,6 @@
 // link - https://leetcode.com/problems/symmetric-tree/description/
+// Time Complexity - O(N)
+// Space Complexity - O(N) ---recursion stack space
 
 class Solution {
 public:

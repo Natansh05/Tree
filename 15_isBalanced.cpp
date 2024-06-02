@@ -1,5 +1,10 @@
+// link - https://leetcode.com/problems/balanced-binary-tree/description/
+
 
 //used pair to store previous value
+// Time Complexity - O(N)
+// Space Complexity - O(N) --- (only recursion stack space for given function )
+// alag se height calculate karne nai ja rahe apan to no use for another recursion stack space
 class Solution {
 public:
 
@@ -39,7 +44,7 @@ public:
 //recursive approach
 
 // Time Complexity - o(N)
-// Space Complexity - O(N)
+// Space Complexity - O(NlogN)
 class Solution {
     private:
     int height(TreeNode *root){

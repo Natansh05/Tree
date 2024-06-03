@@ -1,4 +1,7 @@
-// 
+// Time Complexity - O(N)
+// Space Complexity - (N)
+
+// link - DNE
 
 void changeTree(Node* root){
   if(root==NULL)
